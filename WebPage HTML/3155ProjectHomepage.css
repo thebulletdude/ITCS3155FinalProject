@@ -1,6 +1,6 @@
 /* Changes the color of the nav bar*/
 .navBar {
-    background-color: black;
+    background-color: blue;
     overflow: hidden;
 }
 
@@ -16,12 +16,31 @@
 
 /* Change the color of links on hover */
 .navBar a:hover {
-    background-color: red;
-    color: white;
+    background-color: white;
+    color: blue;
 }
 
 /* Add a color to the active/current link */
 .navBar a.active {
-    background-color: red;
+    background-color: white;
+    color: blue;
+}
+h2{
     color: white;
+    background-color: blue;
+    margin: auto;
+}
+
+h1{
+    color: blue;
+}
+
+h3{
+    color: blue;
+}
+
+.videoCenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
